@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     BASE_DIR: ClassVar[Path] = Path(__file__).resolve().parent.parent
     ARTIFACTS_DIR: ClassVar[Path] = BASE_DIR / "artifacts"
     LOGS_DIR: ClassVar[Path] = BASE_DIR / "logs"
+    
 
     # Parâmetros (Ridge)
     ALPHA: float = 1.0
